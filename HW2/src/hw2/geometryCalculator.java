@@ -25,7 +25,7 @@ public class geometryCalculator {
             radius = getRadius.nextDouble();
             
             //Print out circle area
-            System.out.println(circleArea(radius));
+            System.out.println("The circle area is " + circleArea(radius));
         } else if (choice == 2){ //Choice to find rectangle area 
             //Get length
             Scanner getLength = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class geometryCalculator {
             width = getWidth.nextDouble();
             
             //Print out rectangle area
-            System.out.println(rectangleArea(length, width));
+            System.out.println("The rectangle area is " + rectangleArea(length, width));
         } else if (choice == 3) { //Choice to find triangle area
             //Get base
             Scanner getBase = new Scanner(System.in);
@@ -51,7 +51,7 @@ public class geometryCalculator {
             height = getHeight.nextDouble();
             
             //Print out rectangle area
-            System.out.println(rectangleArea(base, height));
+            System.out.println("The triangle area is " + triangleArea(base, height));
         } else if (choice == 4) {
             System.exit(0);
         } else {
