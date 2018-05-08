@@ -1,6 +1,6 @@
 /*
 Program Name: makeChange.java
-Programer: Charles
+Programer: Charles Ibo
 Date 03-07-18
 Version 1.0
 In this program we ask an amount in cents given by the user.
